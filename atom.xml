@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jiangzhou.space/"/>
-  <updated>2017-07-04T09:09:52.000Z</updated>
+  <updated>2017-07-04T09:16:26.000Z</updated>
   <id>http://jiangzhou.space/</id>
   
   <author>
@@ -20,16 +20,16 @@
     <link href="http://jiangzhou.space/2017/07/04/ssh%E5%AF%86%E9%92%A5%E7%99%BB%E5%BD%95/"/>
     <id>http://jiangzhou.space/2017/07/04/ssh密钥登录/</id>
     <published>2017-07-04T08:57:40.000Z</published>
-    <updated>2017-07-04T09:09:52.000Z</updated>
+    <updated>2017-07-04T09:16:26.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="ssh密钥登录指令备忘"><a href="#ssh密钥登录指令备忘" class="headerlink" title="ssh密钥登录指令备忘"></a>ssh密钥登录指令备忘</h2><h3 id="使用ssh-keygen创建公钥和密钥"><a href="#使用ssh-keygen创建公钥和密钥" class="headerlink" title="使用ssh-keygen创建公钥和密钥"></a>使用ssh-keygen创建公钥和密钥</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#</span><span class="bash">按指令操作</span></div><div class="line"> ssh-keygen -t  rsa</div></pre></td></tr></table></figure>
-<h3 id="使用ssh-copy-id把公钥复制到远程主机上"><a href="#使用ssh-copy-id把公钥复制到远程主机上" class="headerlink" title="使用ssh-copy-id把公钥复制到远程主机上"></a>使用ssh-copy-id把公钥复制到远程主机上</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">#替换公钥名称以及远程服务器地址</div><div class="line">ssh-copy-id -<span class="selector-tag">i</span> ~/.ssh/id_rsa<span class="selector-class">.pub</span>  root@xxx<span class="selector-class">.xxx</span><span class="selector-class">.xxx</span><span class="selector-class">.xxx</span></div></pre></td></tr></table></figure>
-<h3 id="最后就可以登录了"><a href="#最后就可以登录了" class="headerlink" title="最后就可以登录了"></a>最后就可以登录了</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">ssh</span> <span class="selector-tag">root</span>@<span class="keyword">xxx</span>.<span class="keyword">xxx</span>.<span class="keyword">xxx</span>.<span class="keyword">xxx</span></div></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<h2 id="使用ssh-keygen创建公钥和密钥"><a href="#使用ssh-keygen创建公钥和密钥" class="headerlink" title="使用ssh-keygen创建公钥和密钥"></a>使用ssh-keygen创建公钥和密钥</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#</span><span class="bash">按指令操作</span></div><div class="line"> ssh-keygen -t  rsa</div></pre></td></tr></table></figure>
+<h2 id="使用ssh-copy-id把公钥复制到远程主机上"><a href="#使用ssh-copy-id把公钥复制到远程主机上" class="headerlink" title="使用ssh-copy-id把公钥复制到远程主机上"></a>使用ssh-copy-id把公钥复制到远程主机上</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">#替换公钥名称以及远程服务器地址</div><div class="line">ssh-copy-id -<span class="selector-tag">i</span> ~/.ssh/id_rsa<span class="selector-class">.pub</span>  root@xxx<span class="selector-class">.xxx</span><span class="selector-class">.xxx</span><span class="selector-class">.xxx</span></div></pre></td></tr></table></figure>
+<h2 id="最后就可以登录了"><a href="#最后就可以登录了" class="headerlink" title="最后就可以登录了"></a>最后就可以登录了</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">ssh</span> <span class="selector-tag">root</span>@<span class="keyword">xxx</span>.<span class="keyword">xxx</span>.<span class="keyword">xxx</span>.<span class="keyword">xxx</span></div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;ssh密钥登录指令备忘&quot;&gt;&lt;a href=&quot;#ssh密钥登录指令备忘&quot; class=&quot;headerlink&quot; title=&quot;ssh密钥登录指令备忘&quot;&gt;&lt;/a&gt;ssh密钥登录指令备忘&lt;/h2&gt;&lt;h3 id=&quot;使用ssh-keygen创建公钥和密钥&quot;&gt;&lt;a href=
+      &lt;h2 id=&quot;使用ssh-keygen创建公钥和密钥&quot;&gt;&lt;a href=&quot;#使用ssh-keygen创建公钥和密钥&quot; class=&quot;headerlink&quot; title=&quot;使用ssh-keygen创建公钥和密钥&quot;&gt;&lt;/a&gt;使用ssh-keygen创建公钥和密钥&lt;/h2&gt;&lt;figu
     
     </summary>
     
